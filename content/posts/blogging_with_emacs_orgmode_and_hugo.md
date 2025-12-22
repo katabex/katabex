@@ -6,9 +6,9 @@ tags = ["Hugo", "Emacs"]
 draft = false
 +++
 
-I have recently updated this site from just being a simple about page written in plain html and CSS to a statically generated site.
+I have recently updated this site from just being a simple about page written in plain `html` and `CSS` to a statically generated site that allows me to post more often without a need to edit the code.
 
-Finding a work flow that works seamlessly is always a challenging task. My only starting assumption was that I want to write using familiar Emacs Org-mode environment and post with as little hassle as possible focusing on the content and not on the mechanics of running the website.
+Finding a work flow that works seamlessly is always a challenging task. Blogging is no exception, there are endless options that may be considered. Fortunately my options quickly narrowed down as my starting assumption was that I want to write using familiar Emacs Org-mode environment.
 
 After investigating a number of setups I have settled on using [Hugo](<https://gohugo.io/>) static site generator combined with [ox-hugo](<https://ox-hugo.scripter.co/>) Org-mode exporter package. This setup allows me to convert Org-mode formated text file containing all my posts to a number of Markdown files that are formated in a way that can be used by Hugo to generate the site automatically. The only additional manual step required is to push the site to GitHub when ready.
 
@@ -37,7 +37,7 @@ Include the following parameters at the top of our Org-mode file to set the dest
     #+hugo_section: posts
 ```
 
-The example above results in the following destination path: `~/sites/hugo-site-home-folder/content/posts/`. All posts included in the Org-file will end there as separate Markdown files ready to be processed by Hugo to render the site.
+The example above results in the following destination path: `~/sites/hugo-site-home-folder/content/posts/`. All posts included in the Org-file willkey end there as separate Markdown files ready to be processed by Hugo to render the site.
 
 Each post will start with the main header containing the title of the post and list of tags and categories: `* My post one title :tag1:@cat1:` plus the following parameters below the title.
 
