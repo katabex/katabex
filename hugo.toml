@@ -19,6 +19,7 @@ pygmentscodefencesguesssyntax = true
 #    subtitle = "Yet another personal site"
     mathjax = true # enable MathJax support
     katex = true # enable KaTeX support
+    favicon ="/favicon.ico"
 #    customcss= ["css/main.css"]
 
 # Social Tags
