@@ -37,7 +37,7 @@ Include the following parameters at the top of our Org-mode file to set the dest
     #+hugo_section: posts
 ```
 
-The example above results in the following destination path: `~/sites/hugo-site-home-folder/content/posts/`. All posts included in the Org-file willkey end there as separate Markdown files ready to be processed by Hugo to render the site.
+The example above results in the following destination path: `~/sites/hugo-site-home-folder/content/posts/`. All posts included in the Org-file will end there as separate Markdown files ready to be processed by Hugo to render the site.
 
 Each post will start with the main header containing the title of the post and list of tags and categories: `* My post one title :tag1:@cat1:` plus the following parameters below the title.
 
