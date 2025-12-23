@@ -8,7 +8,7 @@ draft = false
 
 I have recently updated this site from just being a simple about page written in plain `html` and `CSS` to a statically generated site that allows me to post more often without a need to edit the code.
 
-Finding a work flow that works seamlessly is always a challenging task. Blogging is no exception, there are endless options that may be considered. Fortunately my options quickly narrowed down as my starting assumption was that I want to write using familiar Emacs Org-mode environment.
+Finding a work flow that works seamlessly is always a challenging task. Blogging is no exception, there are endless options that may be considered. Fortunately my options quickly narrowed to one as my starting requirement was that I want to write my posts using familiar Emacs Org-mode environment.
 
 After investigating a number of setups I have settled on using [Hugo](<https://gohugo.io/>) static site generator combined with [ox-hugo](<https://ox-hugo.scripter.co/>) Org-mode exporter package. This setup allows me to convert Org-mode formated text file containing all my posts to a number of Markdown files that are formated in a way that can be used by Hugo to generate the site automatically. The only additional manual step required is to push the site to GitHub when ready.
 
