@@ -9,7 +9,12 @@ Hi there! I'm Katabex and this is my personal site.
 
 ## Contact {#contact}
 
-You can reach me by email at katabex@protonmail.com. You can also connect with me on [GitHub](<https://github.com/katabex>).
+You can reach me by email at katabex@protonmail.com. You can also connect with me on [GitHub](<https://github.com/katabex>) or [Nostr](<https://primal.net/p/nprofile1qqstv25n0ld9dgxyl2yga2ql4suk3ac3t9zlsy6uwjmdpeqe3xn87ag28hmw8>).
+
+
+## Subscribe {#subscribe}
+
+You can subscribe to my RSS [feed](/index.xml).
 
 
 ## Colophon {#colophon}
