@@ -19,4 +19,4 @@ You can subscribe to my RSS [feed](/index.xml).
 
 ## Colophon {#colophon}
 
-This site is build using Emacs Org-mode [ox-hugo](<https://ox-hugo.scripter.co/>) converter, [Hugo](<https://gohugo.io/>) static site generator and is heavily based on the [Archie](<https://github.com/athul/archie>) theme, see this [post](_posts/blogging_with_emacs_orgmode_and_hugo_) for more details about my setup.
+This site is build using Emacs Org-mode [ox-hugo](<https://ox-hugo.scripter.co/>) converter, [Hugo](<https://gohugo.io/>) static site generator and is heavily based on the [Archie](<https://github.com/athul/archie>) theme, see this [post](<http://katabex.com/posts/blogging_with_emacs_orgmode_and_hugo/>) for more details about my setup.
