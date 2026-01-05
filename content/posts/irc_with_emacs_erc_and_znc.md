@@ -6,11 +6,11 @@ tags = ["Emacs", "IRC"]
 draft = false
 +++
 
-RC is a protocol that is older than the Web and has a [long](<https://daniel.haxx.se/irchistory.html>) [history](<https://youtu.be/6UbKenFipjo>) behind it. The protocol is still used, but it is not really something that the majority of mainstream messaging application users would get excited about. The protocol is open and free to use, and because of this, there is not much commercial interest in investing in applications that would attract “mainstream” users.
+IRC is an old protocol, even older than the Web, with a [long](<https://daniel.haxx.se/irchistory.html>) [history](<https://youtu.be/6UbKenFipjo>). While some still use it, most mainstream messaging app users aren't thrilled about it. The protocol is open and free, which means there’s little commercial interest in building apps to attract "mainstream" users.
 
-To use the protocol properly, you not only need an IRC client application, but also a so-called IRC bouncer - a sort of proxy between your IRC client of choice and the IRC server. The bouncer is a server application that runs 24 hours per day and monitors activity on the IRC channels (chat groups) to which the user is subscribed. While the user is away, the bouncer records all activity and replays it to the IRC client when the client reconnects. The client alone may connect directly to the IRC server, but this does not guarantee that the user will see all messages posted to a channel while he or she is away.
+To use IRC properly, you need an IRC client and an IRC bouncer - a proxy between your client and the IRC server. The bouncer runs 24/7, monitoring activity in the IRC channels you’ve joined. While you're away, it records all activity and sends it to your client when you reconnect. Although the client can connect directly to the server, you might miss messages sent while you're gone.
 
-This requirement alone is a threshold that prevents the majority of potential users from ever considering an IRC-protocol-based client as their chat application of choice. You need to know what you are doing, and going through the hassle of setting up a bouncer is a test you must pass in order to fully participate in IRC-based communities.
+This requirement makes it tough for most potential users to choose an IRC-based client for chatting. You need to know what you're doing, and setting up a bouncer is a hurdle you must clear to fully participate in IRC communities.
 
 
 ## My setup {#my-setup}
