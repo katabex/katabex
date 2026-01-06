@@ -1,72 +1,54 @@
 baseURL = "https://katabex.com/"
 languageCode = "en-us"
 title = "Katabex"
-theme="archie"
+theme="nostyleplease"
 copyright = "© Katabex"
 # Code Highlight
-pygmentsstyle = "monokai"
-pygmentscodefences = true
-pygmentscodefencesguesssyntax = true
+# pygmentsstyle = "monokai"
+# pygmentscodefences = true
+# pygmentscodefencesguesssyntax = true
 
 # disqusShortname = "katabex"
 
 [pagination]
   pagerSize = 3 # articles per page
 
+[module]
+  [module.hugoVersion]
+    extended = true
+    min      = "0.41.0"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.parser]
+      [markup.goldmark.parser.attribute]
+        block = true
+        title = true
+
+  [markup.highlight]
+    anchorLineNos      = false
+    codeFences         = true
+    guessSyntax        = false
+    hl_Lines           = ''
+    hl_inline          = false
+    lineAnchors        = ''
+    lineNoStart        = 1
+    lineNos            = false
+    lineNumbersInTable = true
+    noClasses          = true
+    noHl               = false
+    style              = 'rrt'
+    tabWidth           = 4
+
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel   = 3
+    ordered    = false
+
 [params]
-    mode="toggle" # color-mode → light,dark,toggle or auto
-    useCDN=false # don't use CDNs for fonts and icons, instead serve them locally.
-#    subtitle = "Yet another personal site"
-#   mathjax = true # enable MathJax support
-    mathjax = false # enable MathJax support
-    katex = true # enable KaTeX support
-    favicon ="/favicon.ico"
-#    customcss= ["css/main.css"]
-
-# Social Tags
-
-[[params.social]]
-name = "GitHub"
-icon = "github"
-url = "https://github.com/katabex"
-
-#[[params.social]]
-#name = "Twitter"
-#icon = "twitter"
-#url = "https://x.com/katabex"
-
-#[[params.social]]
-#name = "GitLab"
-#icon = "gitlab"
-#url = "https://gitlab.com/athul/"
-
-# Main menu Items
-
-[[menu.main]]
-name = "Home"
-url = "/"
-weight = 1
-
-[[menu.main]]
-name = "Posts"
-url = "/posts"
-weight = 2
-
-[[menu.main]]
-name = "Feed"
-url = "/index.xml"
-weight = 3
-
-[[menu.main]]
-name = "Tags"
-url = "/tags"
-weight = 4
-
-[[menu.main]]
-name = "About"
-url = "/about"
-weight = 5
-
-[caches]
-  [caches.images]
-    dir = ':cacheDir/images'
+  [params.theme_config]
+    appearance        = "auto"
+    back_home_text    = ".."
+    date_format       = "2006-01-02"
+    isListGroupByDate = false
+    isShowFooter      = true
