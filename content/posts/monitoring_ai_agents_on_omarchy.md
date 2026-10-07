@@ -25,5 +25,3 @@ cd agents-monitor
 Uninstalling with `./uninstall.sh` restores the stock widget and removes the plugin without a trace.
 
 It is written in QML and shell, MIT licensed, and [the code is on GitHub](<https://github.com/katabex/agents-monitor>). Issues and suggestions are welcome.
-
-Agents work for me all day. I like to see what they are eating.
