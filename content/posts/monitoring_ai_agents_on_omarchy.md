@@ -12,6 +12,8 @@ I spend my days working with AI coding agents. Claude Code, Codex, OpenCode, pi,
 
 The panel has three views. Subscriptions shows how full each allowance is and when it resets, or your remaining prepaid balance, ordered by actual use. By agent shows one tab per coding tool you used in the last seven days, with a day-by-day token chart for the week. Totals sums this week's usage by subscription and by model, across all tools.
 
+{{< figure src="/images/agents_monitor_panel.png" >}}
+
 It works out of the box with Claude Code, Codex, Copilot, OpenCode, pi and Hermes - no configuration needed, it discovers them on its own. OpenRouter, Z.ai and Fireworks only need an API key or a sign-in. A subscription that is not configured simply gets no tab.
 
 Installing is one command:
