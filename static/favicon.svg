@@ -1,12 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
-  <!-- Katabex SVG favicon: 16 px tier lambda, automatic dark/light.
-       Modern browsers pick the color via prefers-color-scheme;
-       ICO/PNG exports cover the rest. -->
+  <!-- Katabex SVG favicon: 16 px tier lambda, always white.
+       White glyph on transparent background; the site is dark by default
+       and browser tab chrome is dark, so no light variant is needed. -->
   <style>
-    svg { color: #101010; }
-    @media (prefers-color-scheme: dark) {
-      svg { color: #e8e8e8; }
-    }
+    svg { color: #ffffff; }
   </style>
   <g fill="none" stroke="currentColor" stroke-width="4.5" stroke-linecap="butt" stroke-linejoin="miter">
     <path d="M 16 4 L 8 28" />

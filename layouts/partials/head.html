@@ -23,5 +23,12 @@
   {{ $sass := resources.Get "css/main.scss" }}
   {{ $style := $sass | css.Sass $options | resources.Fingerprint "sha512" }}
   <link rel="stylesheet" href="{{ $style.Permalink | relURL }}" integrity="{{ $style.Data.Integrity }}" />
+  <style>
+    header h1 img {
+      display: inline-block;
+      vertical-align: -9px;
+      margin-right: 12px;
+    }
+  </style>
   {{ if .Params.mathjax }} {{ partial "mathjax.html" . }} {{ end }}
 </head>
