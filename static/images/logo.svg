@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="48" height="48">
+  <!-- Katabex header logo: K lambda ligature in the site text colour and a block cursor
+       in the link colour, on a transparent background so it sits on any page colour. -->
+  <g fill="none" stroke="#ebedf5" stroke-width="3" stroke-linecap="butt" stroke-linejoin="miter">
+    <g transform="translate(6 4.5) scale(0.72)">
+      <path d="M 7 3 V 29" />
+      <path d="M 14 3 L 7 17.5 L 1.5 29" />
+      <path d="M 7 17.5 L 20 29" />
+    </g>
+  </g>
+  <rect x="24" y="20.4" width="4" height="6" fill="#2fafff" />
+</svg>
