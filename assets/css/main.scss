@@ -182,3 +182,28 @@ details[open] summary {
 .toc {
   padding: 1rem;
 }
+
+// Header photo. Spacing rhythm: 1rem from the photo to the first element below it,
+// 1.5rem from the post meta line to the post title.
+.header-strip {
+  display: block;
+  margin: -2rem 0 1rem;
+
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+}
+
+// Home page: the logo and title sit directly under the photo, like a caption.
+header h1 { margin: 0; }
+
+// Posts: the meta line follows the photo, the title follows the meta line.
+.post-meta {
+  margin-bottom: 1.5rem;
+
+  p { margin: 0; }
+}
+
+article > h1:first-child { margin-top: 0; }

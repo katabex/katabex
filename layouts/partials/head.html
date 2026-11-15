@@ -19,6 +19,7 @@
   <link rel="icon" href="{{ "favicon-dark-32x32.png" | relURL }}" sizes="32x32" type="image/png" media="(prefers-color-scheme: dark)" />
   <link rel="apple-touch-icon" href="{{ "apple-touch-icon.png" | relURL }}" />
   <link rel="shortcut icon" type="image/x-icon" href="{{ "favicon.ico" | relURL }}" />
+  <link rel="alternate" type="application/rss+xml" title="{{ site.Title }}" href="{{ "index.xml" | absURL }}" />
   {{ $options := (dict "outputStyle" "compressed" "enableSourceMap" (not hugo.IsProduction)) }}
   {{ $sass := resources.Get "css/main.scss" }}
   {{ $style := $sass | css.Sass $options | resources.Fingerprint "sha512" }}

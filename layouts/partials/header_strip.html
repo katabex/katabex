@@ -1,0 +1,9 @@
+{{- /* Header photo at the top of every page. It is the largest element above the fold,
+       so it loads with high priority. */ -}}
+{{- with resources.Get "images/header.jpeg" -}}
+  {{- $x1 := .Resize "640x webp q80" -}}
+  {{- $x2 := .Resize "1280x webp q80" -}}
+  <a class="header-strip" href="{{ "/" | relURL }}" aria-label="{{ site.Title }} home">
+    <img src="{{ $x2.RelPermalink }}" srcset="{{ $x1.RelPermalink }} 1x, {{ $x2.RelPermalink }} 2x" width="640" height="213" alt="" fetchpriority="high" decoding="async">
+  </a>
+{{- end -}}
