@@ -89,6 +89,7 @@ Herdr is the part I would not give up - it keeps long-running agents alive and v
 T3 Code runs as a background service on the same home server, with pi and OpenCode as its agents.
 I reach it from the desktop app over SSH and from the T3 Code phone app over Tailscale, and I turn to it for pure repository work, when I want worktrees and pull requests in one place.
 Amp is impressive, but for a single person who prefers to own the agent and the hardware, it duplicates more than it adds.
+The one exception is external triggers, agents that wake on outside events: unique to Amp for now, possibly useful to me one day, but likely to be adopted by T3 Code or the Herdr app.
 
 If you are choosing, start by asking which layer you are missing.
 If your agent is fine but your terminals keep dying, look at Herdr.
