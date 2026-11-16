@@ -45,6 +45,7 @@ The agents can run on your own computer or on a remote machine: the desktop app 
 Its strength is the git workflow.
 Every thread can get its own git worktree and branch, with an inline diff and one-click commit, push and pull request.
 You can start a task at your desk and approve the next step from your phone.
+Tasks can also be scheduled, to run once at a set time or on a repeating schedule, each run in its own thread or a continuing one.
 
 T3 Code is young and changes almost daily, but in my use it is already pretty stable.
 It is most useful for repository-heavy coding, where parallel threads on separate worktrees save real time.
@@ -71,7 +72,7 @@ Herdr TUI, the Herdr app and herdr-core are free and open source under Apache 2.
 | Own agent | Yes | No | No |
 | Where agents run | Amp cloud, or your local or remote machine through an Amp runner (connects through Amp's service, no SSH or Tailscale setup) | Your local or remote machine, over SSH, Tailscale or T3 Connect | Your local or remote machine, over SSH (also across Tailscale) |
 | Mobile access to remote machines | iPhone and iPad (TestFlight beta) and Android apps; portals show the running app on the phone | iOS and Android apps paired with your server over the local network or Tailscale (no account), or through T3 Connect (account) | iPhone, iPad and Android apps that reach herdr-core over SSH (Tailscale works); for Herdr TUI, the community Android app Sherpr |
-| Strongest feature | Cloud orbs that start work on outside events (new issues, failing builds, schedules) | Worktrees, diffs and pull requests | Persistent panes with agent status |
+| Strongest feature | Cloud orbs that start work on outside events (new issues, failing builds, schedules) | Worktrees, diffs, pull requests and scheduled tasks | Persistent panes with agent status |
 | Teams | Yes | No | No |
 | Price | Free tier, $20/month for hosted orbs, runners free | Free, MIT | Free, Apache 2.0 |
 
