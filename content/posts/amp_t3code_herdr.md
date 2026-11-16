@@ -8,7 +8,7 @@ draft = false
 
 New tools for working with AI coding agents seem to appear every week, and I keep trying them.
 [Herdr](<https://herdr.dev>) was my first choice for running my agents, and it still is.
-My workflow these days is mostly work on technical specifications and standards, and I am always looking for tools that improve it.
+My workflow these days is mostly work on technical specifications, and I am always looking for tools that improve it.
 Two more tools keep coming up in my feeds: [Amp](<https://ampcode.com>) and [T3 Code](<https://t3.codes>).
 They get compared to Herdr as if they were rivals, but they are not.
 Each one sits at a different layer of the stack, and understanding that layer is the quickest way to decide whether you need it.
