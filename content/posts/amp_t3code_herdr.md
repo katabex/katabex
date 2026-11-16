@@ -8,19 +8,16 @@ draft = false
 
 New tools for working with AI coding agents seem to appear every week, and I keep trying them.
 [Herdr](<https://herdr.dev>) was my first choice for running my agents, and it still is.
-My workflow these days is mostly work on technical specifications, and I am always looking for tools that improve it.
+My workflow these days is mostly work on technical specifications and doing research, and I am always looking for tools that improve it.
 Two more tools keep coming up in my feeds: [Amp](<https://ampcode.com>) and [T3 Code](<https://t3.codes>).
 They get compared to Herdr as if they were rivals, but they are not.
 Each one sits at a different layer of the stack, and understanding that layer is the quickest way to decide whether you need it.
-All three change weekly; the details below were checked against each project's own pages on November 16, 2026.
-
 In short: Amp replaces the agent, T3 Code wraps the agent, and Herdr hosts the agent.
 
 ## Amp: the agent and the machine it runs on
 
-Amp started inside Sourcegraph and became an independent company in December 2025.
 Amp brings its own agent and its own cloud machines, called orbs, which you can also host yourself.
-You pick the model, or leave it on the Amp team's Staff Pick, and Amp builds the agent around it, with a system prompt and tools tuned for each model.
+You pick the model, or leave it on the Amp, and Amp builds the agent around it, with a system prompt and tools tuned for each model.
 An orb keeps working after you close your laptop, runs your app, and shows it through portals you can open on any device.
 Orbs can also wake up on outside events: a new Linear issue, CI failing on the main branch, a webhook from another service, or a schedule the agent sets for itself.
 Teammates can join the same orb to share the agent, the code and the running app.
@@ -29,7 +26,7 @@ If you prefer your own hardware, `amp --no-tui` turns your laptop or server into
 A runner can also share its terminals and portals, connecting directly where the network allows and through Amp's relay where it does not.
 
 Pricing has two parts.
-Model tokens bill to your own connections first - a ChatGPT or Claude subscription, or your API keys - and fall back to Amp credits, which Amp sells without markup.
+Model tokens bill to your own connections first - a ChatGPT or Claude subscription, or your API keys - and fall back to Amp credits.
 Web search, reading web pages, voice and image generation with Amp's Painter tool always use Amp credits.
 Hosted orb time is pay-as-you-go on the free Hobby tier, or comes from the $20 per month plan with 45,000 orb minutes.
 Team workspaces are free, and so are runners and self-hosted orbs.
@@ -45,12 +42,10 @@ It has no agent of its own.
 Instead, it drives the coding CLIs you already have installed and signed in to - Claude Code, Codex, Cursor, OpenCode, pi, Grok Build, Antigravity and any agent that speaks ACP, the Agent Client Protocol - from one desktop, web or phone interface.
 You can switch models in the middle of a thread, or let one agent hand a task to another.
 The agents can run on your own computer or on a remote machine: the desktop app can start T3 Code on a server over SSH, and phones and other computers connect over the local network, Tailscale, or T3 Connect, an optional account-based service that is free for now and links up to three machines.
-On my server, pairings with phones and browsers expired after 30 days; a desktop app connected over SSH pairs again on its own.
 
 Its strength is the git workflow.
 Every thread can get its own git worktree and branch, with an inline diff and one-click commit, push and pull request.
 You can start a task at your desk and approve the next step from your phone.
-Because it never resells tokens, your existing subscriptions keep working as they are.
 
 T3 Code is young and changes almost daily, but in my use it is already pretty stable.
 It is most useful for repository-heavy coding, where parallel threads on separate worktrees save real time.
