@@ -53,7 +53,7 @@ It is most useful for repository-heavy coding, where parallel threads on separat
 ## Herdr: where the agents live
 
 Herdr is the layer underneath, and today the name covers two separate products.
-Herdr TUI, the original, is a terminal multiplexer built for coding agents, in the spirit of tmux: real terminal panes that keep running in a background server when you close the window or lose your SSH connection, and that come back with their sessions after a reboot.
+Herdr TUI, the original, is a terminal multiplexer built for coding agents, in the spirit of tmux: real terminal panes that keep running in a background server when you close the window or lose your SSH connection, and whose layout returns after a reboot, with supported agents resuming their conversations.
 It adds what tmux never had - it knows which agents are working, which are done, and which need you, reading the state of known agents straight from the screen - plus a CLI and socket API that scripts and agents use to start, prompt and wait for each other.
 The newer Herdr app is a native desktop app built on herdr-core, a small runtime that keeps the terminals alive while the app is closed, and you reshape the app itself by asking your agent to change its configuration.
 In herdr-core, each terminal's status comes straight from the program through the open OSC 7501 protocol, with no screen scraping, so any script can report one too.
