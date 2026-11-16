@@ -37,7 +37,6 @@ The trade-off is that you adopt Amp's agent and Amp's way of working, even when 
 
 ## T3 Code: one interface for the agents you already have
 
-T3 Code comes from T3 Tools and is free and MIT licensed.
 It has no agent of its own.
 Instead, it drives the coding CLIs you already have installed and signed in to - Claude Code, Codex, Cursor, OpenCode, pi, Grok Build, Antigravity and any agent that speaks ACP, the Agent Client Protocol - from one desktop, web or phone interface.
 You can switch models in the middle of a thread, or let one agent hand a task to another.
