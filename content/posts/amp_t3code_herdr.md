@@ -37,7 +37,7 @@ The trade-off is that you adopt Amp's agent and Amp's way of working, even when 
 
 ## T3 Code: one interface for the agents you already have
 
-It has no agent of its own.
+T3 Code has no agent of its own.
 Instead, it drives the coding CLIs you already have installed and signed in to - Claude Code, Codex, Cursor, OpenCode, pi, Grok Build, Antigravity and any agent that speaks ACP, the Agent Client Protocol - from one desktop, web or phone interface.
 You can switch models in the middle of a thread, or let one agent hand a task to another.
 The agents can run on your own computer or on a remote machine: the desktop app can start T3 Code on a server over SSH, and phones and other computers connect over the local network, Tailscale, or T3 Connect, an optional account-based service that is free for now and links up to three machines.
