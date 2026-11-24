@@ -3,7 +3,7 @@ title = "Mread, a minimal Markdown reader for Omarchy"
 author = ["Katabex"]
 date = 2026-11-24T00:00:00+01:00
 tags = ["Omarchy"]
-draft = true
+draft = false
 +++
 
 I read more Markdown than ever: notes, documentation, and the reports my AI agents write.
